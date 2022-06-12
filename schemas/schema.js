@@ -4,6 +4,7 @@ import donorSchema from './donor';
 import requestSchema from './request';
 import accountSchema from './account';
 import userSchema from './user';
+import verificationTokenSchema from './verificationToken';
 
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
@@ -18,6 +19,7 @@ export default createSchema({
     donorSchema,
     requestSchema,
     accountSchema,
-    userSchema
+    userSchema,
+    verificationTokenSchema
   ]),
 })
