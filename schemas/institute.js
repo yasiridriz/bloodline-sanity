@@ -1,6 +1,6 @@
 export default {
-    name: 'request',
-    title: 'Request',
+    name: 'institute',
+    title: 'Institute',
     type: 'document',
     fields: [
         {
