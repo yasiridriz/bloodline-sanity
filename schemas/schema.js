@@ -2,6 +2,7 @@
 import createSchema from 'part:@sanity/base/schema-creator';
 import donorSchema from './donor';
 import requestSchema from './request';
+import instituteSchema from './institute';
 import accountSchema from './account';
 import userSchema from './user';
 import verificationTokenSchema from './verificationToken';
@@ -17,6 +18,7 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     donorSchema,
+    instituteSchema,
     requestSchema,
     accountSchema,
     userSchema,
