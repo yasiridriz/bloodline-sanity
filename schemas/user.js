@@ -16,7 +16,8 @@ export default {
       {
         name: 'institute',
         title: 'Institute',
-        type: 'string'
+        type: 'reference',
+        to: [{type: 'institute'}] 
       },
       {
         name: 'password',
