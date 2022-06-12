@@ -4,7 +4,7 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'nameof',
+            name: 'name',
             title: 'Name',
             type: 'string'
         },
@@ -12,7 +12,7 @@ export default {
             name: 'locations',
             title: 'Locations',
             type: 'array',
-            of: [{type: 'string'}]
+            of: [{ type: 'string' }]
         }
     ]
 };
