@@ -1,6 +1,10 @@
 // First, we must import the schema creator
 import createSchema from 'part:@sanity/base/schema-creator';
-import donorSchema from './donor';
+import donor from './donor';
+import request from './request';
+import account from './account';
+import user from './user';
+import 
 
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
