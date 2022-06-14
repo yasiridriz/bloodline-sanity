@@ -13,6 +13,15 @@ export default {
             title: 'Locations',
             type: 'array',
             of: [{ type: 'string' }]
+        },
+        {
+            name: 'users',
+            title: 'Users',
+            type: 'array',
+            of: [{ 
+                type: 'reference',
+                to: [{ type: 'user' }]
+            }]
         }
     ]
 };
