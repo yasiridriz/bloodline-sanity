@@ -22,6 +22,11 @@ export default {
             name: 'bloodType',
             title: 'Blood Type',
             type: 'string'
+        },
+        {
+            name: 'priorityLevel',
+            title: 'Priority Level',
+            type: 'string',
         }
     ]
 };
