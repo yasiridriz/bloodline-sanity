@@ -24,7 +24,7 @@ export default {
             type: 'string'
         },
         {
-            name: 'priorityLevel',
+            name: 'priority',
             title: 'Priority Level',
             type: 'string',
         }
